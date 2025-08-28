@@ -44,7 +44,11 @@ button {
 .color-column {
   width: 110px;
   height: 450px;
+  transition: transform 0.5s ease-in-out;
+}
 
+.color-column:hover {
+  transform: scale(1.02);
 }
 
 .hex-box {
