@@ -1,0 +1,35 @@
+<html>
+    <head>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+      <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <main>
+            <div class="color-container">
+                <input type="color" id="color-picker">
+                <select id="color-choices">
+                    <option value="monochrome">Monochrome</option>
+                    <option value="monochrome-dark">Monochrome-dark</option>
+                    <option value="monochrome-light">Monochrome-light</option>
+                    <option value="analogic">Analogic</option>
+                    <option value="complement">Complement</option>
+                    <option value="analogic-complement">Analogic-complement </option>
+                    <option value="triad">Triad</option>
+                </select>
+                <button type="submit" id="btn-el">Generate color</button>
+            </div>
+            <div class="color-palette" id="color-palette">
+                <!-- <div class="color-section">
+                    <div class="color-column" id="color-column"></div>
+                    <p class="hex-box"></p>
+                </div> -->
+            </div>
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>
