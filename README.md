@@ -1,41 +1,37 @@
-# 📌 Project Title
+Color API
+A simple web app that generates a color scheme based on a user-selected color. It helps designers quickly find matching colors and explore different palettes.
 
-One or two sentences describing the project:  
-What it does, what problem it solves, or why it’s interesting.  
+✨ Features
+🔹 Select a base color using a color picker
+🔹 Choose a color scheme mode (e.g., monochrome, analogic, triad, etc.)
+🔹 Display a palette of 5 matching colors with their hex codes
+🔹 (Future) Copy hex codes to clipboard with a single click
 
----
+🛠️ Tech Stack
+Language / Framework: JavaScript, HTML, CSS
+Libraries / Tools: The Color API, Fetch API
 
-## ✨ Features
-- 🔹 Feature 1  
-- 🔹 Feature 2  
-- 🔹 Feature 3  
-- 🔹 (Add/remove as needed)  
+🕹️ How to Use
+Open the app in a web browser
+Select a color from the color picker
+Choose a color scheme mode from the dropdown
+Click the “Generate” button
+The palette will display 5 matching colors with hex codes
 
----
+📦 Installation
 
-## 🛠️ Tech Stack
-- Language / Framework (e.g., React, Python, Node.js)  
-- Libraries / Tools used (list them here)  
-
----
-
-## 🕹️ How to Use
-1. Step 1 (e.g., *Open the app*)  
-2. Step 2 (e.g., *Click a button / enter input*)  
-3. Step 3 (what the user can expect)  
-
----
-
-## 📦 Installation
-```bash
 # Clone the repo
-git clone https://github.com/your-username/project-name.git
+git clone https://github.com/shantel1111/color-api.git
 
 # Go into the project folder
-cd project-name
+cd color-api
 
-# Install dependencies
-npm install   # or pip install -r requirements.txt
+# Open the app (no dependencies needed)
+open index.html   # or double-click the file in your system
 
-# Start the project
-npm start     # or python main.py
+
+💡 Future Improvements
+Add a “Copy to Clipboard” button for each hex code
+Allow users to download the palette as an image
+Add more color scheme modes or customizations
+Implement local storage to save favorite palettes
