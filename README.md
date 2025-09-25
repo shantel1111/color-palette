@@ -36,7 +36,14 @@ Generate color schemes instantly! This web app allows users to select a base col
    
 ## 📦 Installation
 ```bash
+# Clone the repo
 git clone https://github.com/shantel1111/color-api.git
+
+# Go into the project folder
 cd color-api
 
+# (Optional) Install dependencies if using a build tool
+npm install
 
+# (Optional) Start the project locally
+npm start
