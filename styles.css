@@ -35,14 +35,18 @@ input[type="color"] {
 }
 
 select {
-  color: black;
   padding-left: 10px;
 }
 
-button {
+select > option {
   color: black;
+}
+
+button {
+  background-color: #626467;
+  color: #ffffff;
   font-size: 12px;
-  width: 50%;
+  width: 30%;
   grid-column: 2;
   grid-row: 2;
 }
