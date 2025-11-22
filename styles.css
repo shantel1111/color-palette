@@ -23,6 +23,10 @@ input[type="color"] {
   background-color: #ffffff;
   border: 1px solid #d1d5db;
   cursor: pointer;
+
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 0;
 }
 
 .color-container {
