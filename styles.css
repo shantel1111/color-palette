@@ -35,10 +35,12 @@ input[type="color"] {
 }
 
 select {
+  color: black;
   padding-left: 10px;
 }
 
 button {
+  color: black;
   font-size: 12px;
   width: 50%;
   grid-column: 2;
